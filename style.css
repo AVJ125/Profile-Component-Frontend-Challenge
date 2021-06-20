@@ -1,0 +1,23 @@
+body{
+  background-color: hsl(185, 75%, 39%);
+  text-align: center;
+
+}
+img.top{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  position: absolute;
+  display: flex;
+
+}
+.circle-img{
+  border-radius: 100%;
+
+}
+.card{
+  text-align: center;
+  background-color: #FFF;
+  display: inline-block;
+  border-radius: 15px;
+  height: 250px;        
+}
