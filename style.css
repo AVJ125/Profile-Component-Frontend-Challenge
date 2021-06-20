@@ -3,21 +3,48 @@ body{
   text-align: center;
 
 }
+.top-div{
+position: absolute;
+
+
+}
 img.top{
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  position: absolute;
-  display: flex;
+
+
 
 }
+br{
+  background-color: hsl(0, 0%, 59%);
+  height: 10px;
+}
+p.name{
+font-family: 'Kumbh Sans', sans-serif;
+font-weight: 700;
+color: hsl(229, 23%, 23%);
+}
+.secondary{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
 .circle-img{
+
+  position: relative;
+margin-top: 25%;
   border-radius: 100%;
+  border: 5px solid #fff;
+
 
 }
 .card{
+  width: 350px;
+  height: 500px;
+  position: relative;
+  display: inline-block;
   text-align: center;
   background-color: #FFF;
-  display: inline-block;
   border-radius: 15px;
-  height: 250px;        
+  height: 250px;
 }
