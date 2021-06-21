@@ -1,3 +1,4 @@
+
 body{
   background-color: hsl(185, 75%, 39%);
   text-align: center;
@@ -78,4 +79,17 @@ padding-top: 10px;
   background-color: #FFF;
   border-radius: 15px;
 
+}
+@media only screen and (max-width: 600px) {
+  body {
+    padding-top: 15%;
+    padding-bottom: 0;
+    background-image: url("images/bg-pattern-top.svg"),url("images/bg-pattern-bottom.svg");
+    background-size: 650px 650px,650px 650px ;
+    background-repeat: no-repeat,no-repeat;
+    background-position: 270% -5000%,-150% 4980%;
+  }
+  .attribution{
+  padding-top: 15%;
+  }
 }
