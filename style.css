@@ -1,6 +1,10 @@
 body{
   background-color: hsl(185, 75%, 39%);
   text-align: center;
+  background-image: url("images/bg-pattern-top.svg"),url("images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat,no-repeat;
+  background-position: -87% 200%,170% -140%;
+
 
 }
 .top-div{
@@ -15,10 +19,7 @@ img.top{
 
 
 }
-br{
-  background-color: hsl(0, 0%, 59%);
-  height: 10px;
-}
+
 p.name{
 font-family: 'Kumbh Sans', sans-serif;
 font-weight: 700;
@@ -38,13 +39,43 @@ margin-top: 25%;
 
 
 }
+.bootom_stat{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+.bottom{
+  display: grid;
+  padding: 5px 10px 5px 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+hr{
+border: 1px solid #E8E8E8;
+border-left: 0;
+border-right: 0;
+border-top: 0;
+}
+.stat-P{
+  color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 70%;
+padding-top: 10px;
+
+  display: block;
+    color: hsl(227, 10%, 46%);
+}
+
 .card{
+  margin-top:12%;
+  margin-bottom: 12%;
   width: 350px;
-  height: 500px;
-  position: relative;
+  height: 100%;
+
   display: inline-block;
   text-align: center;
   background-color: #FFF;
   border-radius: 15px;
-  height: 250px;
+
 }
